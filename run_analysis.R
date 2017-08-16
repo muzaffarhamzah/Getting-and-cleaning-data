@@ -37,7 +37,7 @@ colnames(subject_test) <- "subjectId"
       
 colnames(activityLabels) <- c('activityId','activityType')
 
-# Merging all obtained data into a set
+# Merging all obtained data into a set with bind
 mrg_train <- cbind(y_train, subject_train, x_train)
 mrg_test <- cbind(y_test, subject_test, x_test)
 

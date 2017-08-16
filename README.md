@@ -1,10 +1,11 @@
 ## Getting-and-Cleaning-Data
+You only have to perform R script "run.analysis.R". General setup such as creating directory, downloading, unzipping data files have been included in the script.
 
 ### About source data
 The source data to be analysed was used for Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Here are the data for the project:
+Here are the data for the project (URL):
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### About R script

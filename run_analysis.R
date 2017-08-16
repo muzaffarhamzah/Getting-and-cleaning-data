@@ -26,7 +26,7 @@ subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt")
 features <- read.table('./data/UCI HAR Dataset/features.txt')
 activityLabels <- read.table('./data/UCI HAR Dataset/activity_labels.txt')
 
-# Creating column names for each variables
+# Creating column names for each variables from both set and assign defining ID
 colnames(x_train) <- features[,2] 
 colnames(y_train) <-"activityId"
 colnames(subject_train) <- "subjectId"

@@ -1,4 +1,4 @@
-## Getting-and-Cleaning-Data ver2
+## Getting-and-Cleaning-Data v2
 You have to perform R script "run.analysis.R". General setup such as creating directory, downloading, unzipping data files have been included in the script.
 
 ### About source data

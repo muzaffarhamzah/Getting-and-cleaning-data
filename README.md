@@ -1,5 +1,5 @@
 ## Getting-and-Cleaning-Data v2
-You have to perform R script "run.analysis.R". General setup such as creating directory, downloading, unzipping data files have been included in the script. This script requires packages "plyr". You may install using the command below
+You have to perform R script "run.analysis.R". General setup such as creating directory, downloading, unzipping data files have been included in the script. This script requires packages "plyr". You may install using the command below:
 
 install.packages("plyr")
 

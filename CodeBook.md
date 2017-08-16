@@ -1,14 +1,14 @@
 ## CodeBook
-This document consists the steps to perform on data preparation and the resulting readily data and variables for analysis. You have to perform R script "run_analysis.R".
+This document consists the steps to perform on data preparation and the resulting readily data and variables for analysis. You have to perform R script "run_analysis.R". The script performs:
 
-### Creating directory, downloading and unzipping data files
-General setup have been included in the R script for collecting data.
+### Creating directory, downloading and unzipping source data files
+General setup have been included in the R script for collecting data from source.
 
 Link for *fileUrl*:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### [1] Merging the training and the test sets to create one data set
-1. Reading files
+1. Reading files from .txt files
  * Reading from training and tests tables
  * Reading feature vector and activity labels
 2. Assigning column names

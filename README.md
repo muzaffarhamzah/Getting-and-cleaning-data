@@ -1,5 +1,7 @@
 ## Getting-and-Cleaning-Data v2
-You have to perform R script "run.analysis.R". General setup such as creating directory, downloading, unzipping data files have been included in the script.
+You have to perform R script "run.analysis.R". General setup such as creating directory, downloading, unzipping data files have been included in the script. This script requires packages "plyr". You may install using the command below
+
+install.packages("dplyr")
 
 ### About source data
 The source data to be analysed was used for Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: 

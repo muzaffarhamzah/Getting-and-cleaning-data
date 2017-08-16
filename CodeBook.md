@@ -1,26 +1,22 @@
-You have to download source data from the link below and unzip it to working directory of R Studio.
-You have to perform R script.
+## CodeBook
+This document consists the steps to perform on data preparation and the resulting readily data and variables for analysis. You have to perform R script "run_analysis.R".
 
-## About source data
-The source data to be analysed was used for Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+### Creating directory, downloading and unzipping data files
+General setup have been included in the R script for collecting data.
 
-Here are the data for the project:
+Link for *fileUrl*:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## About R script
-File with R script "run_analysis.R" perform 5 following steps (in accordance assigned to the task of course work):
-
-### [1] Merging the training and the test sets to create one data set.
+### [1] Merging the training and the test sets to create one data set
 1. Reading files
  * Reading from training and tests tables
  * Reading feature vector and activity labels
 2. Assigning column names
 3. Merging all data in one set
 
-### [2] Extracting only the measurements on the mean and standard deviation for each measurement
-1. Reading column names
-2. Create vector for defining ID, mean and standard deviation
+### [2] Extracting only the measurements on the Mean and Standard Deviation for each measurement
+1. Reading column *names*
+2. Create vector for defining ID, Mean and Standard Deviation (mean_and_std)
 3. Making nessesary subset from setAllInOne
 
 ### [3] Using descriptive activity names to name the activities in the data set

@@ -1,5 +1,5 @@
 ## CodeBook
-This document consists the steps to perform on data preparation and the resulting readily data and variables for analysis. You have to perform R script "run_analysis.R". The script performs:
+This document consists the steps to perform on data preparation and resulting readily data and variables for analysis. You have to perform R script "run_analysis.R". The script performs:
 
 ### Creating directory, downloading and unzipping source data files
 General setup have been included in the R script for collecting data from source.
